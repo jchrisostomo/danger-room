@@ -1,8 +1,8 @@
-package com.company.composition;
+package com.company.buildingstrings;
 
 
-import com.company.composition.entities.Comment;
-import com.company.composition.entities.Post;
+import com.company.buildingstrings.entities.Comment;
+import com.company.buildingstrings.entities.Post;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

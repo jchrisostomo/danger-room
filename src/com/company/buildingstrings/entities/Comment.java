@@ -1,4 +1,4 @@
-package com.company.composition.entities;
+package com.company.buildingstrings.entities;
 
 public class Comment {
     private String text;
