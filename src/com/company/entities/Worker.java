@@ -12,7 +12,7 @@ public class Worker {
     private Double baseSalary;
 
     private Department department;
-    private List<HourContract> contractList = new ArrayList<>();
+    private final List<HourContract> contractList = new ArrayList<>();
 
     public Worker() {
     }
@@ -76,9 +76,20 @@ public class Worker {
             int c_year = cal.get(Calendar.YEAR);
             int c_month = cal.get(Calendar.MONTH) + 1;
             if (year == c_year && month == c_month) {
-                sum += c.totalValue()*c.getHours();
+                sum += c.totalValue();
             }
         }
         return sum;
+    }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "name='" + name + '\'' +
+                ", level=" + level +
+                ", baseSalary=" + baseSalary +
+                ", department=" + department +
+                ", contractList=" + contractList +
+                '}';
     }
 }

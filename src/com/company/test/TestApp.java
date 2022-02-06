@@ -1,4 +1,4 @@
-package com.company;
+package com.company.test;
 
 import com.company.entities.Department;
 import com.company.entities.HourContract;
@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Main {
+public class TestApp {
 
     public static void main(String[] args) throws ParseException {
         System.out.println("DANGER ROOM");
