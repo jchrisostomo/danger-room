@@ -1,4 +1,4 @@
-package com.company.entities;
+package com.company.enumscomposition.entities;
 
 import java.util.Date;
 

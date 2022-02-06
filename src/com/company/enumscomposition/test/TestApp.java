@@ -1,16 +1,16 @@
-package com.company;
+package com.company.enumscomposition.test;
 
-import com.company.entities.Department;
-import com.company.entities.HourContract;
-import com.company.entities.Worker;
-import com.company.entities.enums.WorkLevel;
+import com.company.enumscomposition.entities.Department;
+import com.company.enumscomposition.entities.HourContract;
+import com.company.enumscomposition.entities.Worker;
+import com.company.enumscomposition.entities.enums.WorkLevel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Main {
+public class TestApp {
 
     public static void main(String[] args) throws ParseException {
         System.out.println("DANGER ROOM");
