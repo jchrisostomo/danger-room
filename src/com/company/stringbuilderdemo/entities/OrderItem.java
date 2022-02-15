@@ -1,8 +1,5 @@
 package com.company.stringbuilderdemo.entities;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class OrderItem {
     private Integer quantity;
     private Double price;
@@ -37,5 +34,20 @@ public class OrderItem {
 
     public void setProduct(Product product) {
         this.product = product;
+    }
+
+    public Double subTotal() {
+        return price * quantity;
+    }
+
+    @Override
+    public String toString() {
+        return getProduct().getName()
+                + ", $"
+                + price
+                + ", Quantity: "
+                + quantity
+                + ", Subtotal: $"
+                + String.format("%.2f", subTotal());
     }
 }
