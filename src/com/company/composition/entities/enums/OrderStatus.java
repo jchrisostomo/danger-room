@@ -1,4 +1,4 @@
-package com.company.stringbuilderdemo.entities.enums;
+package com.company.composition.entities.enums;
 
 public enum OrderStatus {
     PENDING_PAYMENT,

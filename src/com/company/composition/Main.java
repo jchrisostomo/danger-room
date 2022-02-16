@@ -1,10 +1,10 @@
-package com.company.stringbuilderdemo;
+package com.company.composition;
 
-import com.company.stringbuilderdemo.entities.Client;
-import com.company.stringbuilderdemo.entities.Order;
-import com.company.stringbuilderdemo.entities.OrderItem;
-import com.company.stringbuilderdemo.entities.Product;
-import com.company.stringbuilderdemo.entities.enums.OrderStatus;
+import com.company.composition.entities.Client;
+import com.company.composition.entities.Order;
+import com.company.composition.entities.OrderItem;
+import com.company.composition.entities.Product;
+import com.company.composition.entities.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,6 +1,6 @@
-package com.company.stringbuilderdemo.entities;
+package com.company.composition.entities;
 
-import com.company.stringbuilderdemo.entities.enums.OrderStatus;
+import com.company.composition.entities.enums.OrderStatus;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

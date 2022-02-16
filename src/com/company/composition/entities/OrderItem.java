@@ -1,4 +1,4 @@
-package com.company.stringbuilderdemo.entities;
+package com.company.composition.entities;
 
 public class OrderItem {
     private Integer quantity;
