@@ -1,4 +1,4 @@
-package com.company.buildingstrings.entities;
+package com.company.buildingstring.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
