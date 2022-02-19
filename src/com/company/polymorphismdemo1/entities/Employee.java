@@ -1,4 +1,4 @@
-package com.company.polymorphism.entities;
+package com.company.polymorphismdemo1.entities;
 
 public class Employee {
     private String name;
