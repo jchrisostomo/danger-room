@@ -1,4 +1,4 @@
-package com.company.inheritancepolymophismdemo1.entities;
+package com.company.polymorphismdemo3.entities;
 
 public abstract class TaxPayer {
     private String name;

@@ -1,4 +1,4 @@
-package com.company.inheritancepolymophismdemo1.entities;
+package com.company.polymorphismdemo3.entities;
 
 public class Individual extends TaxPayer {
     private Double healthExpenditures;

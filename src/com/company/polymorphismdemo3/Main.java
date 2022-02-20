@@ -1,8 +1,8 @@
-package com.company.inheritancepolymophismdemo1;
+package com.company.polymorphismdemo3;
 
-import com.company.inheritancepolymophismdemo1.entities.Company;
-import com.company.inheritancepolymophismdemo1.entities.Individual;
-import com.company.inheritancepolymophismdemo1.entities.TaxPayer;
+import com.company.polymorphismdemo3.entities.Company;
+import com.company.polymorphismdemo3.entities.Individual;
+import com.company.polymorphismdemo3.entities.TaxPayer;
 
 import java.util.ArrayList;
 import java.util.List;
